@@ -5,6 +5,10 @@ with the system's public IP address.
 
 # Installation
 
+[Download a pre-built binary for your platform](https://github.com/veonik/homedns/releases).
+
+### Using go get
+
 Install with `go get`.
 
 ```bash
