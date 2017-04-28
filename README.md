@@ -1,6 +1,7 @@
 # homedns
 
-Updates Linode DNS with your machine's public address.
+homedns is a cross-platform utility to update a Linode managed DNS A record
+with the system's public IP address.
 
 # Installation
 
@@ -15,9 +16,13 @@ go get github.com/veonik/homedns
 ```
 Usage of homedns:
   -domain string
-        DNS Domain Name
+    	DNS Domain name, required
   -key string
-        Linode API key.
+    	Linode API key, required
   -name string
-        DNS A Record Name
+    	DNS A Record name, required
+  -verbose
+    	Enable verbose logging
+  -help
+    	Show this help text
 ```
